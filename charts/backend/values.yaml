@@ -1,0 +1,4 @@
+replicaCount: 1
+image: 
+  name: binitmaharjan/finalbackend
+  tag: "2"

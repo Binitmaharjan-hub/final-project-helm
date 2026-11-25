@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: frontend
+        app: frontend # if different labels are kept what happens
     spec:
       containers:
         - name: frontend
@@ -27,7 +27,7 @@ metadata:
   namespace: finalproject
 spec:
   selector:
-    app: frontend
+    app: frontend # this
   ports:
     - protocol: TCP
       port: 80

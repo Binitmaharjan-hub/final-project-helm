@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v1 # why apps/
 kind: Deployment
 metadata:
   name: backend-deployment
@@ -21,8 +21,8 @@ spec:
           env:
             - name: DATABASE_URL
               valueFrom:
-                configMapKeyRef:
-                  name: configmap-backend
+                secretKeyRef:
+                  name: secret-backend
                   key: DATABASE_URL
             
             - name: DATABASE_SSL

@@ -1,10 +1,10 @@
-frontend:
+frontend_chart:
   replicaCount: 1
   image: 
     name: binitmaharjan/finalproject
     tag: "latest"
 
-backend:
+backend_chart:
   replicaCount: 1
   image: 
     name: binitmaharjan/finalbackend

@@ -8,6 +8,7 @@ spec:
   ingressClassName: nginx
 
   rules:
+    - host: frontend.local
     - http:
         paths:
           - path: /api

@@ -9,7 +9,7 @@ spec:
 
   rules:
     - host: frontend.local
-    - http:
+      http:
         paths:
           - path: /api
             pathType: Prefix

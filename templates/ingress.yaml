@@ -8,7 +8,7 @@ spec:
   ingressClassName: nginx
 
   rules:
-    - host: frontend.local
+    - host: binit-maharjan.com.np
       http:
         paths:
           - path: /api
